@@ -1,0 +1,28 @@
+.aboutscontent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2% 10%;
+  background-color: #000;
+  color: #fff;
+}
+.aboutscontent__top {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+.aboutscontent__top__img img {
+  width: 400px;
+  height: 323px;
+}
+.aboutscontent__top__title span {
+  color: #fdb827;
+}
+.aboutscontent__bottom {
+  display: flex;
+  flex-direction: column;
+}
+.aboutscontent__bottom h4 {
+  margin: 12px 0;
+}/*# sourceMappingURL=aboutscontent.css.map */

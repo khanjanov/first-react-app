@@ -1,0 +1,32 @@
+.aboutscontent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 2% 10%;
+  background-color: #000;
+  color: #fff;
+  &__top {
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    &__img {
+      img {
+        width: 400px;
+        height: 323px;
+      }
+    }
+    &__title {
+      span {
+        color: #fdb827;
+      }
+    }
+  }
+  &__bottom {
+    display: flex;
+    flex-direction: column;
+    h4 {
+      margin: 12px 0;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.header {
+  background-color: #242423;
+}
+.header__navs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  padding: 20px;
+}
+.header__navs li a {
+  color: #eeecec;
+}/*# sourceMappingURL=header.css.map */
