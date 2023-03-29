@@ -1,5 +1,13 @@
 .header {
   background-color: #242423;
+  a.active {
+    &::before {
+      content: "\f192";
+      font: normal normal normal 12px/1 FontAwesome;
+      padding-right: 2px;
+      color: #fdb827;
+    }
+  }
   &__navs {
     width: 100%;
     display: flex;
