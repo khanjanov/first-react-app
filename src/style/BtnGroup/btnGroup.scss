@@ -1,0 +1,32 @@
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 4%;
+  button {
+    border-radius: 12px;
+    border: transparent;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  &__aboutBtn {
+    width: 112px;
+    height: 48px;
+    background-color: #fdb827;
+    a {
+      color: #000;
+    }
+  }
+  &__portfoliosBtn {
+    width: 196px;
+    height: 48px;
+    background-color: #242423;
+    a {
+      color: #fff;
+    }
+  }
+}

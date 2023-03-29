@@ -1,16 +1,12 @@
 import React from "react";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
 import AboutsContent from "./AboutsContent";
+import AboutsPic from "../../images/about/deskSitting.svg";
 
 const About = () => {
   return (
     <div>
-      <Header />
       <AboutsContent
-        image={
-          <img src="https://t4.ftcdn.net/jpg/03/83/30/07/360_F_383300738_hWLn1AksIpVnhy2uHTj90HGp21lYWAV3.jpg" />
-        }
+        image={<img src={AboutsPic} />}
         title={
           <h1 className="aboutscontent__top__title">
             I’m Amirhossein Meydani <br /> A <span>Backend</span> and{" "}
@@ -63,7 +59,6 @@ const About = () => {
           </div>
         }
       />
-      <Footer />
     </div>
   );
 };

@@ -49,11 +49,14 @@
 .aboutscontent__top {
   display: flex;
   align-items: center;
-  gap: 10%;
+  gap: 20px;
 }
 .aboutscontent__top__img img {
-  width: 400px;
+  width: 323px;
   height: 323px;
+}
+.aboutscontent__top__title {
+  font-size: 48px;
 }
 .aboutscontent__top__title span {
   color: #fdb827;
@@ -64,4 +67,81 @@
 }
 .aboutscontent__bottom h4 {
   margin: 12px 0;
+}
+
+.homesContent {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #000;
+}
+.homesContent__topImg {
+  position: absolute;
+  top: 0;
+  left: 8%;
+}
+.homesContent__topImg img {
+  width: 440px;
+  height: 440px;
+}
+.homesContent__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10%;
+  color: #fff;
+}
+.homesContent__info h1 {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+.homesContent__info p {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.homesContent__bottomImg {
+  position: absolute;
+  bottom: -64px;
+  right: 8%;
+}
+.homesContent__bottomImg img {
+  width: 362px;
+  height: 362px;
+}
+
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 4%;
+}
+.btnGroup button {
+  border-radius: 12px;
+  border: transparent;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.btnGroup__aboutBtn {
+  width: 112px;
+  height: 48px;
+  background-color: #fdb827;
+}
+.btnGroup__aboutBtn a {
+  color: #000;
+}
+.btnGroup__portfoliosBtn {
+  width: 196px;
+  height: 48px;
+  background-color: #242423;
+}
+.btnGroup__portfoliosBtn a {
+  color: #fff;
 }/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,43 @@
+.homesContent {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #000;
+}
+.homesContent__topImg {
+  position: absolute;
+  top: 0;
+  left: 8%;
+}
+.homesContent__topImg img {
+  width: 440px;
+  height: 440px;
+}
+.homesContent__info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10%;
+  color: #fff;
+}
+.homesContent__info h1 {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+.homesContent__info p {
+  text-align: center;
+  letter-spacing: 1px;
+}
+.homesContent__bottomImg {
+  position: absolute;
+  bottom: -64px;
+  right: 8%;
+}
+.homesContent__bottomImg img {
+  width: 362px;
+  height: 362px;
+}/*# sourceMappingURL=homescontent.css.map */

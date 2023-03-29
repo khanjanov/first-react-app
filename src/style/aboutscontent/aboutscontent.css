@@ -10,11 +10,14 @@
 .aboutscontent__top {
   display: flex;
   align-items: center;
-  gap: 10%;
+  gap: 20px;
 }
 .aboutscontent__top__img img {
-  width: 400px;
+  width: 323px;
   height: 323px;
+}
+.aboutscontent__top__title {
+  font-size: 48px;
 }
 .aboutscontent__top__title span {
   color: #fdb827;

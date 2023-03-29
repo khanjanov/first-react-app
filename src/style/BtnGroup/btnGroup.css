@@ -1,0 +1,32 @@
+.btnGroup {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  gap: 4%;
+}
+.btnGroup button {
+  border-radius: 12px;
+  border: transparent;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.btnGroup__aboutBtn {
+  width: 112px;
+  height: 48px;
+  background-color: #fdb827;
+}
+.btnGroup__aboutBtn a {
+  color: #000;
+}
+.btnGroup__portfoliosBtn {
+  width: 196px;
+  height: 48px;
+  background-color: #242423;
+}
+.btnGroup__portfoliosBtn a {
+  color: #fff;
+}/*# sourceMappingURL=btnGroup.css.map */
