@@ -1,0 +1,24 @@
+.contactsContent {
+  gap: 20px;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+  &__top {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    &__left {
+      margin: 12px;
+    }
+    &__right {
+      &--info {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        padding: 16px;
+        h1 {
+          font-size: 48px;
+        }
+      }
+    }
+  }
+}

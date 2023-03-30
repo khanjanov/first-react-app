@@ -122,7 +122,6 @@
 .btnGroup {
   display: flex;
   justify-content: center;
-  margin-top: 5%;
   gap: 4%;
 }
 .btnGroup button {
@@ -150,4 +149,27 @@
 }
 .btnGroup__portfoliosBtn a {
   color: #fff;
+}
+
+.contactsContent {
+  gap: 20px;
+  padding: 20px;
+  background-color: #000;
+  color: #fff;
+}
+.contactsContent__top {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+}
+.contactsContent__top__left {
+  margin: 12px;
+}
+.contactsContent__top__right--info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+.contactsContent__top__right--info h1 {
+  font-size: 48px;
 }/*# sourceMappingURL=App.css.map */
