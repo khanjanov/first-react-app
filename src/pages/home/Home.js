@@ -2,7 +2,6 @@ import React from "react";
 import HomesContent from "./HomesContent";
 import HomeTopImg from "../../images/home/sittingWithComp.svg";
 import HomeBottomImg from "../../images/home/bottomHand.svg";
-import BtnGroup from "../../components/BtnGroup";
 
 const Home = () => {
   return (

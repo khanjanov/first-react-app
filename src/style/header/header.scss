@@ -3,6 +3,9 @@
   a.active {
     &::before {
       content: "\f192";
+      position: absolute;
+      left: -16px;
+      top: 8px;
       font: normal normal normal 12px/1 FontAwesome;
       padding-right: 2px;
       color: #fdb827;
@@ -16,6 +19,7 @@
     gap: 32px;
     padding: 20px;
     li {
+      position: relative;
       a {
         color: #eeecec;
       }

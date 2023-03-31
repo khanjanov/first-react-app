@@ -7,13 +7,11 @@ const Footer = () => {
         Copyright © 2021 All rights reserved.
       </div>
       <div className="footer__socials">
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
+        <i className="fa-brands fa-github"></i>
+        <i className="fa-brands fa-twitter"></i>
+        <i className="fa-brands fa-instagram"></i>
       </div>
-      <div className="footer__source">
-        Source code available
-      </div>
+      <div className="footer__source">Source code available</div>
     </div>
   );
 };
