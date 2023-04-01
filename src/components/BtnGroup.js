@@ -1,14 +1,14 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const BtnGroup = () => {
   return (
     <div className="btnGroup">
       <button className="btnGroup__aboutBtn">
-        {" "}
-        <a href="#"> About me</a>
+        <NavLink to="/about"> About me</NavLink>
       </button>
       <button className="btnGroup__portfoliosBtn">
-        <a href="#">😮Let's see portfolios</a>
+        <NavLink to="/portfolios">😮Let's see portfolios</NavLink>
       </button>
     </div>
   );
