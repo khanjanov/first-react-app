@@ -270,4 +270,21 @@
   align-items: center;
   gap: 12px;
   font-size: 12px;
+}
+
+.notFound {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+}
+.notFound h1 {
+  font-size: 80px;
+}
+.notFound p {
+  font-size: 60px;
+  font-weight: 300;
 }/*# sourceMappingURL=App.css.map */
