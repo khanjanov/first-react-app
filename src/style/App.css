@@ -19,7 +19,6 @@
   font: normal normal normal 12px/1 FontAwesome;
   padding-right: 2px;
   color: #fdb827;
-  transition: 1s;
 }
 .header__navs {
   width: 100%;
@@ -222,4 +221,53 @@
   display: flex;
   align-items: center;
   gap: 12px;
+}
+
+.blogsContent {
+  width: 100%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding: 5% 8%;
+  background-color: #000;
+}
+.blogsContent__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid #555555;
+  border-radius: 24px;
+  background-color: #242423;
+  color: #eeecec;
+}
+.blogsContent__card__top {
+  width: 100%;
+}
+.blogsContent__card__top img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.blogsContent__card__bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 12px;
+  padding: 8px 12px;
+}
+.blogsContent__card__bottom--top {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.blogsContent__card__bottom--top h3 {
+  font-size: 16px;
+}
+.blogsContent__card__bottom--bottom {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 12px;
 }/*# sourceMappingURL=App.css.map */
