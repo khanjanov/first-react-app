@@ -9,6 +9,7 @@ import Contact from "./pages/contact/Contact";
 import "./style/App.css";
 import Portfolios from "./pages/portfolios/Portfolios";
 import Blog from "./pages/blog/Blog";
+import Journey from "./pages/journey/Journey";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/portfolios" element={<Portfolios />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/journey" element={<Journey />} />
         <Route path="*" element={<NotFound />} />
         <Route path="/" element={<Navigate to="/home" />} />
       </Routes>
